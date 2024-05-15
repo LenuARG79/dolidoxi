@@ -39,9 +39,8 @@ body {
 .logo-bar {
     height: 50px;
 }
-
 .fa-bars {
-    color: $color3;
+    color: $color3 !important;
     font-size: 16px;
     margin-top: 10px;
     margin-right: 25px;
