@@ -1,0 +1,22 @@
+SEO
+
+Páginas:
+1- index.html:
+-	Agregue meta keybords.
+-	Agregue meta description.
+
+2- nosotros.html:
+-	Agregue meta keybords.
+-	Agregue meta description.
+
+3- productos.html:
+-	Agregue meta keybords.
+-	Agregue meta description.
+
+4- comercial.html:
+-	Agregue meta keybords.
+-	Agregue meta description.
+
+5- contacto.html:
+-	Agregue meta keybords.
+-	Agregue meta description.
