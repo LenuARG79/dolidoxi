@@ -396,7 +396,6 @@ hr {
   }
 }
 /*fin productos*/
-
 /*comercial*/
 .h2-comercial {
   color: white;
@@ -442,7 +441,6 @@ hr {
   }
 }
 /*fin comercial*/
-
 /*contacto*/
 .h2-contacto {
   color: white;
@@ -558,7 +556,6 @@ iframe {
   }
 }
 /*fin contacto*/
-
 /*media queries*/
 @media (min-width: 768px) {
   .fa-instagram {
