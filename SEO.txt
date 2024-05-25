@@ -4,6 +4,7 @@ Páginas:
 1- index.html:
 -	Agregue meta keybords.
 -	Agregue meta description.
+-       Agregue texto altentaivo a las imágenes.
 
 2- nosotros.html:
 -	Agregue meta keybords.
@@ -12,6 +13,7 @@ Páginas:
 3- productos.html:
 -	Agregue meta keybords.
 -	Agregue meta description.
+-       Agregue texto alternativo a cada imagen.
 
 4- comercial.html:
 -	Agregue meta keybords.

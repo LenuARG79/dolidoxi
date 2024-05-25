@@ -1,0 +1,104 @@
+
+.h2-contacto {
+    color: $color3;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.textarea {
+    height: 200px;
+}
+.btn-form {
+    display: flex;
+    justify-content: center;
+}
+.btn-enviar {
+    margin-top: 15px;
+    height: 50px;
+    width: 80px;
+    background-color: $Color1 !important;
+    border-color: $color3 !important;
+}   
+.p-maps-contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4 60px);
+    grid-gap: 10px;
+    padding: 25px;
+}
+.p-contacto {
+    color: $color3;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+    text-justify: center;
+    padding: 20px;
+}
+.p-contacto1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}    
+iframe {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    height: 280px;
+}
+.p-contacto2 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+@media (min-width:768px){
+    .p-maps-contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 100px);
+        grid-gap: 10px;
+        padding: 25px;
+    }
+    .p-contacto1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        text-justify: center;
+    }
+    .p-contacto2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: center;
+        text-justify: center;
+    }  
+    iframe {
+        grid-column: 2/4;
+        grid-row: 1/4;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .p-maps-contacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 100px);
+        grid-gap: 10px;
+        padding: 25px;
+    }
+    .p-contacto1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+        text-justify: center;
+    }
+    .p-contacto2 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: center;
+        text-justify: center;
+    }  
+    iframe {
+        grid-column: 2/4;
+        grid-row: 1/4;
+    }
+}
